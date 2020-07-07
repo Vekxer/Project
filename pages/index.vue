@@ -1,17 +1,34 @@
 <template>
-  <div class="container">
-    <div>
+  <div class="container mx-auto">
+    <div class="w-full">
       <Logo />
-      <h1 class="title">
+      <h1 class="text-6xl .text-center font-bold text-xl mb-2">
         {{ home.title }}
       </h1>
       <nuxt-content :document="home" />
-      <li v-for="blog in blogs" :key="blog.title">
-        <nuxt-link :to="`/blogs/${blog.title}`">
-          {{ blog.title }}
+    </div>
+    <ul class="grid grid-cols-3 w-full gap-12">
+      <li v-for="blog in blogs" :key="blog.slug">
+        <nuxt-link :to="`/blogs/${blog.slug}`">
+          <div class="rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full object-cover h-56 object-center" :src="blog.image" alt="BlogImage">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">
+                {{ blog.title }}
+              </div>
+              <p class="text-gray-700 text-base">
+                {{ blog.description }}
+              </p>
+            </div>
+            <div class="px-6 py-4">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#{{ blog.tag1 }}</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#{{ blog.tag2 }}</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#{{ blog.tag3 }}</span>
+            </div>
+          </div>
         </nuxt-link>
       </li>
-    </div>
+    </ul>
   </div>
 </template>
 
@@ -19,49 +36,8 @@
 export default {
   async asyncData ({ $content }) {
     const home = await $content('home').fetch()
-    const blogs = await $content('blogs').fetch()
+    const blogs = await $content('blogs').sortBy('DateCreated').limit(3).fetch()
     return { home, blogs }
   }
 }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 85px;
-  color: #ffffff;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
