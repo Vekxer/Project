@@ -1,17 +1,19 @@
 <template>
   <div class="container mx-auto">
-    <div class="w-full">
+    <div class="w-full text-center text-3xl font-bold mb-2">
       <Logo />
-      <h1 class="text-6xl .text-center font-bold text-xl mb-2">
+      <h1 class="text-6xl">
         {{ home.title }}
       </h1>
-      <nuxt-content :document="home" />
+      <h1 class="text-xl">
+        Here are the recent blogs:
+      </h1>
     </div>
     <ul class="grid grid-cols-3 w-full gap-12">
       <li v-for="blog in blogs" :key="blog.slug">
         <nuxt-link :to="`/blogs/${blog.slug}`">
           <div class="rounded overflow-hidden shadow-lg bg-white">
-            <img class="w-full object-cover h-56 object-center" :src="blog.image" alt="BlogImage">
+            <img class="w-full object-cover h-56" :src="blog.image" alt="BlogImage">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">
                 {{ blog.title }}
