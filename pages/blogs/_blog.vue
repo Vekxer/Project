@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
+  <div class="container mx-auto">
     <article>
-      <h1 class="text-3xl font-bold text-xl mb-2 text-center">
+      <h1 class="text-3xl font-bold mb-2 text-center">
         {{ blog.title }}
       </h1>
-      <img style="width: 60rem; height:30rem" :src="blog.image" alt="BlogImage">
+      <img class="object-container" style="width: 100%; height:35rem" :src="blog.image" alt="BlogImage">
       <nuxt-content :document="blog" />
     </article>
   </div>

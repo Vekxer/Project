@@ -1,7 +1,10 @@
 ---
-title: About Me
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit nunc sit amet libero hendrerit varius. 
-image: /img/about-me.jpg
+title: League of Legends
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit nunc sit amet libero hendrerit varius.
+image: /img/league-of-legends.jpg
+tag1: MOBA
+tag2: Gaming
+tag3: Team
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit nunc sit amet libero hendrerit varius. Maecenas vehicula dolor massa, sit amet venenatis ante suscipit id. Fusce a tristique magna. Nunc maximus risus vitae est blandit tempor. Nullam fringilla, lacus sit amet egestas tincidunt, ex eros dapibus nisi, consequat tempor turpis dolor eu justo. Curabitur viverra vitae velit at congue. Sed odio ante, volutpat non accumsan quis, hendrerit non justo. Suspendisse sed tempor nulla, in malesuada enim. Suspendisse eu venenatis tellus.
 
