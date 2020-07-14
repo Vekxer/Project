@@ -2,15 +2,21 @@
 title: League of Legends
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit nunc sit amet libero hendrerit varius.
 image: /img/league-of-legends.jpg
-tag1: MOBA
-tag2: Gaming
-tag3: Team
+tags: 
+  - MOBA
+  - Gaming
+  - Team
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit nunc sit amet libero hendrerit varius. Maecenas vehicula dolor massa, sit amet venenatis ante suscipit id. Fusce a tristique magna. Nunc maximus risus vitae est blandit tempor. Nullam fringilla, lacus sit amet egestas tincidunt, ex eros dapibus nisi, consequat tempor turpis dolor eu justo. Curabitur viverra vitae velit at congue. Sed odio ante, volutpat non accumsan quis, hendrerit non justo. Suspendisse sed tempor nulla, in malesuada enim. Suspendisse eu venenatis tellus.
+# Heading1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit nunc sit amet libero hendrerit varius. Maecenas vehicula dolor massa, sit amet venenatis ante suscipit id. Fusce a tristique magna. Nunc maximus risus vitae est blandit tempor. Nullam fringilla, lacus sit amet egestas tincidunt, ex eros dapibus nisi, consequat tempor turpis dolor eu justo.
+Liste:
+- Cras facilisis lectus at pharetra porttitor. 
+- Donec venenatis felis eget aliquet tempor. 
+- Praesent efficitur euismod quam, quis tincidunt orci commodo sit amet. 
+- Sed eu convallis odio. 
 
-Cras facilisis lectus at pharetra porttitor. Donec venenatis felis eget aliquet tempor. Praesent efficitur euismod quam, quis tincidunt orci commodo sit amet. Sed eu convallis odio. Quisque ultrices quam dui, non efficitur felis aliquet sed. Phasellus ultrices, tortor quis porttitor bibendum, nisl ipsum vestibulum turpis, in ultrices magna dui at purus. Integer egestas scelerisque elit quis luctus. Donec luctus, dui id luctus feugiat, nulla libero cursus libero, ut mollis quam erat non nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec vel magna quis nibh eleifend aliquam a eu tortor. Morbi nisl odio, rhoncus non diam sed, porttitor pretium nisl. Nulla venenatis dui ac sem iaculis, sed ultrices erat rutrum. Phasellus lorem augue, ultricies nec pretium sit amet, scelerisque id nisi.
+## Heading2 Quisque ultrices quam dui, non efficitur felis aliquet sed. Phasellus ultrices, tortor quis porttitor bibendum, nisl ipsum vestibulum turpis, in ultrices magna dui at purus. Integer egestas scelerisque elit quis luctus. Donec luctus, dui id luctus feugiat, nulla libero cursus libero, ut mollis quam erat non nibh.
 
-Integer rutrum viverra porta. Vivamus mollis dolor magna, sed finibus augue ullamcorper vitae. Nullam bibendum, justo suscipit iaculis aliquam, felis augue tristique orci, non blandit nisi sem eu elit. Curabitur vestibulum lectus et justo luctus vulputate. Cras turpis nunc, pellentesque in nulla sit amet, condimentum porttitor eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel suscipit mi. Donec hendrerit commodo risus, ac placerat erat consequat non. Suspendisse ut nunc dignissim, porttitor odio eu, euismod nunc. Aliquam aliquam, lorem eget sollicitudin dignissim, dolor metus lacinia est, nec pharetra magna lectus et orci. Pellentesque porttitor erat leo, et ornare ex imperdiet quis. Nam et scelerisque dui, sed convallis felis.
+Integer rutrum viverra porta. Vivamus mollis dolor magna, sed finibus augue ullamcorper vitae. Nullam bibendum, justo suscipit iaculis aliquam, felis augue tristique orci, non blandit nisi sem eu elit. Curabitur vestibulum lectus et justo luctus vulputate. Cras turpis nunc, pellentesque in nulla sit amet, condimentum porttitor eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Here is an example ==>** *Vestibulum vel suscipit mi.* Donec hendrerit commodo risus, ac placerat erat consequat non. Suspendisse ut nunc dignissim, porttitor odio eu, euismod nunc. Aliquam aliquam, lorem eget sollicitudin dignissim, dolor metus lacinia est, nec pharetra magna lectus et orci. Pellentesque porttitor erat leo, et ornare ex imperdiet quis. Nam et scelerisque dui, sed convallis felis.**Something important**
 
 Sed ac condimentum nibh. Vestibulum eget massa ac sapien vehicula ultricies. Aenean feugiat, neque ut convallis varius, nibh leo ultricies neque, ut condimentum massa dolor vel justo. Vivamus sagittis vehicula risus non maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce metus urna, ultricies in mattis interdum, tempor id leo. Integer imperdiet ut tortor vel egestas.
 

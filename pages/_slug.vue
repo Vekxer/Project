@@ -1,13 +1,14 @@
 <template>
-  <div class="container mx-auto">
-    <article>
-      <h1 class="w-full text-center text-3xl font-bold text-xl mb-2">
+  <article>
+    <div class="overflow-hidden bg-cover h-screen" style="background-image: url(/img/league-of-legends.jpg)">
+      <h1 class="text-3xl font-bold text-center font-semibold text-white">
         {{ page.title }}
       </h1>
-      <img class="object-container" style="width: 100%; height:35rem" :src="page.image" alt="BlogImage">
+    </div>
+    <div class="container mx-auto mt-3">
       <nuxt-content :document="page" />
-    </article>
-  </div>
+    </div>
+  </article>
 </template>
 
 <script>

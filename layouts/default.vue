@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-red-600">
+  <div class="bg-red-700">
     <header-blog />
     <nuxt />
     <footer-blog />
