@@ -8,7 +8,6 @@ tags:
   - Team
 ---
 # Heading1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit nunc sit amet libero hendrerit varius. Maecenas vehicula dolor massa, sit amet venenatis ante suscipit id. Fusce a tristique magna. Nunc maximus risus vitae est blandit tempor. Nullam fringilla, lacus sit amet egestas tincidunt, ex eros dapibus nisi, consequat tempor turpis dolor eu justo.
-Liste:
 - Cras facilisis lectus at pharetra porttitor. 
 - Donec venenatis felis eget aliquet tempor. 
 - Praesent efficitur euismod quam, quis tincidunt orci commodo sit amet. 

@@ -1,5 +1,5 @@
 <template>
-  <header style="background-color:#33298a" class="sticky top-0 grid grid-cols-6 grid-rows-1 items-center text-xl font-bold inline-block text-white">
+  <header style="background-color:#33298a" class="sticky top-0 grid grid-cols-6 grid-rows-1 items-center text-xl font-bold text-white">
     <div class="col-start-1 text-left" style="color:#0b9ad9">
       <Logo style="height:4rem" />
       <nuxt-link class="p-1 rounded text-2xl" style="font-family:serif" to="/">

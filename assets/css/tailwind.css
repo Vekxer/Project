@@ -1,3 +1,28 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind base;
+h1 {
+    @apply text-3xl;
+    margin: 1em 0;
+}
+h2 {
+    @apply text-2xl;
+    margin: 1em 0;
+}
+h3 {
+    @apply text-xl;
+    margin: 1em 0;
+}
+p {
+    @apply text-lg;
+    @apply text-gray-500;
+    margin: 1em 0;
+}
+li {
+    list-style-type: circle;
+    @apply text-gray-500;
+    margin-left: 1.3em;
+}
+@font-face{
+    font-family: serif;
+}
+@tailwind components;
+@tailwind utilities;

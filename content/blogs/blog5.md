@@ -7,14 +7,13 @@ tags:
   - Gaming
   - Strategy
 ---
-# Heading1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit nunc sit amet libero hendrerit varius. Maecenas vehicula dolor massa, sit amet venenatis ante suscipit id. Fusce a tristique magna. Nunc maximus risus vitae est blandit tempor. Nullam fringilla, lacus sit amet egestas tincidunt, ex eros dapibus nisi, consequat tempor turpis dolor eu justo.
-Liste:
+# Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 - Cras facilisis lectus at pharetra porttitor. 
 - Donec venenatis felis eget aliquet tempor. 
 - Praesent efficitur euismod quam, quis tincidunt orci commodo sit amet. 
 - Sed eu convallis odio. 
 
-## Heading2 Quisque ultrices quam dui, non efficitur felis aliquet sed. Phasellus ultrices, tortor quis porttitor bibendum, nisl ipsum vestibulum turpis, in ultrices magna dui at purus. Integer egestas scelerisque elit quis luctus. Donec luctus, dui id luctus feugiat, nulla libero cursus libero, ut mollis quam erat non nibh.
+## Quisque ultrices quam dui, non efficitur felis aliquet sed. 
 
 Integer rutrum viverra porta. Vivamus mollis dolor magna, sed finibus augue ullamcorper vitae. Nullam bibendum, justo suscipit iaculis aliquam, felis augue tristique orci, non blandit nisi sem eu elit. Curabitur vestibulum lectus et justo luctus vulputate. Cras turpis nunc, pellentesque in nulla sit amet, condimentum porttitor eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Here is an example ==>** *Vestibulum vel suscipit mi.* Donec hendrerit commodo risus, ac placerat erat consequat non. Suspendisse ut nunc dignissim, porttitor odio eu, euismod nunc. Aliquam aliquam, lorem eget sollicitudin dignissim, dolor metus lacinia est, nec pharetra magna lectus et orci. Pellentesque porttitor erat leo, et ornare ex imperdiet quis. Nam et scelerisque dui, sed convallis felis.**Something important**
 

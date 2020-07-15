@@ -1,11 +1,11 @@
 <template>
   <article>
     <div class="overflow-hidden bg-cover h-screen" style="background-image: url(/img/league-of-legends.jpg)">
-      <h1 class="text-3xl font-bold text-center font-semibold text-white">
+      <div class="text-6xl font-bold text-center items-center content-center text-white">
         {{ blog.title }}
-      </h1>
+      </div>
     </div>
-    <div class="container mx-auto mt-3">
+    <div class="container max-w-screen-sm mx-auto mt-3">
       <nuxt-content :document="blog" />
     </div>
   </article>
