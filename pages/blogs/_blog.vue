@@ -1,6 +1,6 @@
 <template>
   <article>
-    <div class="overflow-hidden bg-cover h-screen" style="background-image: url(/img/league-of-legends.jpg)">
+    <div class="overflow-hidden bg-cover h-screen" :style="{backgroundImage: 'url(' + blog.image + ')'}">
       <div class="text-6xl font-bold text-center items-center content-center text-white">
         {{ blog.title }}
       </div>
