@@ -1,5 +1,5 @@
 ---
-title: League of Legends
+title: Test
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit nunc sit amet libero hendrerit varius.
 image: /img/league-of-legends.jpg
 tags: 
@@ -20,3 +20,5 @@ Integer rutrum viverra porta. Vivamus mollis dolor magna, sed finibus augue ulla
 Sed ac condimentum nibh. Vestibulum eget massa ac sapien vehicula ultricies. Aenean feugiat, neque ut convallis varius, nibh leo ultricies neque, ut condimentum massa dolor vel justo. Vivamus sagittis vehicula risus non maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce metus urna, ultricies in mattis interdum, tempor id leo. Integer imperdiet ut tortor vel egestas.
 
 Nullam iaculis dui ac neque interdum, ac bibendum lectus pretium. Morbi rutrum magna arcu, vel cursus mauris auctor vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Mauris interdum, sapien nec suscipit aliquet, ex augue ultrices ante, quis varius magna diam quis nunc. In nisl quam, posuere aliquam mi vel, cursus convallis enim. Curabitur feugiat egestas semper. Sed lacinia vulputate nisl eget aliquam. Nullam dapibus risus facilisis, porta purus non, finibus sem. Curabitur ac mi non massa interdum pharetra. Phasellus pretium odio sodales pulvinar viverra. Morbi lorem diam, malesuada sit amet elit at, tincidunt interdum diam. Phasellus in scelerisque velit. Donec pulvinar nulla mattis leo vulputate gravida. Donec ipsum risus, tristique quis facilisis volutpat, pellentesque nec ligula. In hendrerit enim maximus, tempus lectus quis, fringilla velit.
+
+<fx-team-member name="Kevin Houde" title="Dev" :image="image" description="Nullam iaculis dui ac neque interdum, ac bibendum lectus pretium. Morbi rutrum magna arcu, vel cursus mauris auctor vitae."> </fx-team-member>

@@ -1,7 +1,7 @@
 <template>
   <div class="teamMember">
-    <div class="fx-img">
-      <fx-img :src="image" alt="memberImage" />
+    <div class="memberImage">
+      <fx-img :src="image" :alt="name" />
     </div>
     <div class="memberName">
       <h2>
@@ -24,10 +24,10 @@
 
 export default {
   props: {
-    name: String,
-    image: Object,
-    description: String,
-    title: String
+    name: { type: String, default: null },
+    image: { type: String, default: null },
+    description: { type: String, default: null },
+    title: { type: String, default: null }
   }
 }
 </script>
